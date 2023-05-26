@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QGTModularControlPage</class>
+ <widget class="QWidget" name="QGTModularControlPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QGTModularControlPage</string>
+  </property>
+  <widget class="QGTToolButton" name="toolButton_SelectModule_JoyHandle">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>5</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+padding:2px 4px;
+color: rgb(85, 170, 255);
+background-color: rgb(38, 76, 115);</string>
+   </property>
+   <property name="text">
+    <string>JoyHandle</string>
+   </property>
+  </widget>
+  <widget class="QGTToolButton" name="toolButton_SelectModule_LiftPlat">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>5</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+padding:2px 4px;
+color: rgb(85, 170, 255);
+background-color: rgb(38, 76, 115);</string>
+   </property>
+   <property name="text">
+    <string>LiftPlat</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_Module_LiftPlat">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>100</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 135, 198);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>55</y>
+     <width>1024</width>
+     <height>580</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="currentIndex">
+    <number>3</number>
+   </property>
+   <widget class="QGTChasisModule" name="Module_Chasis"/>
+   <widget class="QGTLiftPlatModule" name="Module_LiftPlat"/>
+   <widget class="QGTRobotModule" name="Module_Robot"/>
+   <widget class="QGTJoyHandleModule" name="Module_JoyHandle"/>
+  </widget>
+  <widget class="QGTToolButton" name="toolButton_SelectModule_Robot">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>5</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+padding:2px 4px;
+color: rgb(85, 170, 255);
+background-color: rgb(38, 76, 115);</string>
+   </property>
+   <property name="text">
+    <string>Robot</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_Module_Robot">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>40</y>
+     <width>100</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 135, 198);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_Module_Chasis">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>100</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 135, 198);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QGTToolButton" name="toolButton_SelectModule_Chasis">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+padding:2px 4px;
+color: rgb(85, 170, 255);
+background-color: rgb(38, 76, 115);</string>
+   </property>
+   <property name="text">
+    <string>Chasis</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_Module_JoyHandle">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>40</y>
+     <width>100</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 135, 198);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QGTToolButton</class>
+   <extends>QToolButton</extends>
+   <header location="global">Commen/qgttoolbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QGTChasisModule</class>
+   <extends>QWidget</extends>
+   <header location="global">qgtchasismodule.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QGTLiftPlatModule</class>
+   <extends>QWidget</extends>
+   <header location="global">qgtliftplatmodule.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QGTRobotModule</class>
+   <extends>QWidget</extends>
+   <header location="global">qgtrobotmodule.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QGTJoyHandleModule</class>
+   <extends>QWidget</extends>
+   <header location="global">qgtjoyhandlemodule.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QGTFunctionalDemoPage</class>
+ <widget class="QWidget" name="QGTFunctionalDemoPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QGTFunctionalDemoPage</string>
+  </property>
+  <widget class="Line" name="line_SelectDemoPlan_A">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>35</y>
+     <width>100</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 135, 198);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>1024</width>
+     <height>590</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="currentIndex">
+    <number>5</number>
+   </property>
+   <widget class="QGTDemoPlanA" name="DemoPlan_A"/>
+   <widget class="QGTDemoPlanB" name="DemoPlan_B"/>
+   <widget class="QGTDemoPlanC" name="DemoPlan_C"/>
+   <widget class="QGTDemoPlanD" name="DemoPlan_D"/>
+   <widget class="QGTDemoPlanE" name="DemoPlan_E"/>
+   <widget class="QGTDemoPlanF" name="DemoPlan_F"/>
+  </widget>
+  <widget class="QGTToolButton" name="toolButton_SelectDemoPlan_B">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>0</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+padding:2px 4px;
+color: rgb(85, 170, 255);
+background-color: rgb(38, 76, 115);</string>
+   </property>
+   <property name="text">
+    <string> Plan B</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_SelectDemoPlan_B">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>35</y>
+     <width>100</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 135, 198);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_SelectDemoPlan_C">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>35</y>
+     <width>100</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 135, 198);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QGTToolButton" name="toolButton_SelectDemoPlan_C">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>0</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+padding:2px 4px;
+color: rgb(85, 170, 255);
+background-color: rgb(38, 76, 115);</string>
+   </property>
+   <property name="text">
+    <string> Plan C</string>
+   </property>
+  </widget>
+  <widget class="QGTToolButton" name="toolButton_SelectDemoPlan_A">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+padding:2px 4px;
+color: rgb(85, 170, 255);
+background-color: rgb(38, 76, 115);</string>
+   </property>
+   <property name="text">
+    <string> Plan A</string>
+   </property>
+  </widget>
+  <widget class="QGTToolButton" name="toolButton_SelectDemoPlan_D">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>0</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+padding:2px 4px;
+color: rgb(85, 170, 255);
+background-color: rgb(38, 76, 115);</string>
+   </property>
+   <property name="text">
+    <string> Plan D</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_SelectDemoPlan_D">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>35</y>
+     <width>100</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 135, 198);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QGTToolButton" name="toolButton_SelectDemoPlan_E">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>0</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+padding:2px 4px;
+color: rgb(85, 170, 255);
+background-color: rgb(38, 76, 115);</string>
+   </property>
+   <property name="text">
+    <string> Plan E</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_SelectDemoPlan_E">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>35</y>
+     <width>100</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 135, 198);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_SelectDemoPlan_F">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>35</y>
+     <width>100</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 135, 198);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QGTToolButton" name="toolButton_SelectDemoPlan_F">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>0</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+padding:2px 4px;
+color: rgb(85, 170, 255);
+background-color: rgb(38, 76, 115);</string>
+   </property>
+   <property name="text">
+    <string> Plan F</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QGTToolButton</class>
+   <extends>QToolButton</extends>
+   <header location="global">Commen/qgttoolbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QGTDemoPlanA</class>
+   <extends>QWidget</extends>
+   <header location="global">qgtdemoplana.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QGTDemoPlanB</class>
+   <extends>QWidget</extends>
+   <header location="global">qgtdemoplanb.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QGTDemoPlanC</class>
+   <extends>QWidget</extends>
+   <header location="global">qgtdemoplanc.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QGTDemoPlanD</class>
+   <extends>QWidget</extends>
+   <header location="global">qgtdemopland.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QGTDemoPlanE</class>
+   <extends>QWidget</extends>
+   <header location="global">qgtdemoplane.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QGTDemoPlanF</class>
+   <extends>QWidget</extends>
+   <header>qgtdemoplanf.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,18 @@
+---- Write Matches (17 in 8 files) ----
+ChasisNet.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool\hdlc):bool CChasisNet::Write(byte Buffer[], byte addr, int iBufferLen)
+ChasisNet.h (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool\hdlc):	bool Write(byte Buffer[], byte addr, int iBufferLen);
+GlobalUnit.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool):	if (false == m_pHdlc_Chasis->Write(m_bzChasisCmd, GT_Chasis_Device_Addr, sizeof(m_bzChasisCmd)))
+GlobalUnit.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool):	if (false == m_pHdlc_Chasis->Write(m_bzChasisCmd, GT_Chasis_Device_Addr, sizeof(m_bzChasisCmd)))
+GlobalUnit.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool):	if (false == m_pHdlc_Chasis->Write(m_bzChasisCmd, GT_Chasis_Device_Addr, sizeof(m_bzChasisCmd)))
+GlobalUnit.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool):	if (false == m_pHdlc_Chasis->Write(m_bzChasisCmd, GT_Chasis_Device_Addr, sizeof(m_bzChasisCmd)))
+GlobalUnit.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool):	if (false == m_pRobotNet->Write(strCmd))
+GlobalUnit.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool):	if (false == m_pRobotNet->Write(strCmd))
+GlobalUnit.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool):	if (false == m_pRobotNet->Write(strCmd))
+GlobalUnit.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool):	if (false == m_pRobotNet->Write(strCmd))
+GlobalUnit.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool):	if (false == m_pRobotNet->Write(strCmd))
+GlobalUnit.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool):	if (false == m_pHdlc_Ros->Write(bzRosCmd, GT_Chasis_Device_Addr, sizeof(bzRosCmd)))
+HDLCNet.h (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool\hdlc):	virtual bool Write(byte Buffer[], byte addr, int iBufferLen) = 0;
+RosplatNet.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool\hdlc):bool CRosplatNet::Write(byte Buffer[], byte addr, int iBufferLen)
+RosplatNet.h (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool\hdlc):	bool Write(byte Buffer[], byte addr, int iBufferLen);
+URRobotArmNet.cpp (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool\hdlc):bool CURRobotArmNet::Write(QString strCmd)
+URRobotArmNet.h (f:\work----交接文档----勿删！！！！！！！！！！！！！！\工作交接\装修机器人\装修机器人源码\gtdecorationrobottool\gtdecorationrobottool\hdlc):	bool Write(QString strCmd);
